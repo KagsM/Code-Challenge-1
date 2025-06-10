@@ -1,4 +1,5 @@
 function calculateBodaFare() { // This code is a simple program to estimate the fare for a boda boda ride.
+    const prompt = require('prompt-sync')();
     const distanceInKm = prompt('Enter the distance in kilometers for your boda ride:') //Prompts the user to enter the distance in kilometres for their boda ride.
     const baseFare = 50; //base fare in KES
     const chargePerKm = 15; //charge per kilometer in KES

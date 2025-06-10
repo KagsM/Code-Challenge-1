@@ -1,4 +1,5 @@
 function estimateTransactionFee() { //This code is a simplified estimator for transaction fees.
+    const prompt = require('prompt-sync')();
     amountToSend = prompt("Enter the amount you want to send:"); //Prompts the user to enter the amount they want to send.
     if (isNaN(amountToSend) || amountToSend <= 0) { //Checks if the input is a valid number greater than 0 and logs an error if it is invalid or less than 0.
         console.error("Please enter a valid amount to send greater than 0.");

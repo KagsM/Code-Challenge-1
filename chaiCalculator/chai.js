@@ -1,4 +1,5 @@
 function calculateChaiIngredients() {  //This code is a simple calculator to determine the basic ingredients needed to make a specific number of cups of Kenyan chai.
+   const prompt = require('prompt-sync')();
    const numberOfCups = prompt("Enter the number of cups of chai you want to make:") //Prompts the user to enter the number of cups of chai they want to make.
    const waterPerCup = 200; // in ml
    const milkPerCup = 50; // in ml

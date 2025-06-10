@@ -1,0 +1,23 @@
+{
+  "name": "code-challenge-1",
+  "version": "1.0.0",
+  "description": "This is for prompt",
+  "main": "index.js",
+  "scripts": {
+    "start": "chai.js fare.js fee.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KagsM/Code-Challenge-1.git"
+  },
+  "keywords": [],
+  "author": "Malcolm Kagolobya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KagsM/Code-Challenge-1/issues"
+  },
+  "homepage": "https://github.com/KagsM/Code-Challenge-1#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
